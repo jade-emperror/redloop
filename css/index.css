@@ -8,7 +8,7 @@ body{
     background-color: rgb(25, 25, 25);
 }
 .nav-bar{
-    background-color: rgba(0, 0, 0, 0.545);
+    background-color: rgba(0, 0, 0, 0.65);
     position: fixed;
     height: 10vh;
     width: 100%;
@@ -43,4 +43,41 @@ a{
     color:#ff355e;
     font-weight: bolder;
     transition: .17s;
+}
+.logo-cont{
+    background-color: black;
+    position: absolute;
+    top: 53vh;
+    left: 10vw;
+    border: solid 1.5vw #ff355e;
+    border-radius: .1vw;
+}
+.logo{
+    width: 13vw;
+    filter: invert();
+}
+.about{
+    background: url(/rcs/home.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: top;
+}
+.about-txt-cont{
+    position: absolute;
+    top: 25vh;
+    left: 90vh;
+    width: 90vh;
+}
+.abt-hdr{
+    font-size: 2.3rem;
+    margin-bottom: 1.5rem;
+    text-transform: capitalize;
+}
+.abt-desc{
+    font-size: 1.3rem;
+    text-indent: 5rem;
+    line-height: 1.5rem;
+    color: #d8d8d8;
+    word-spacing: .2rem;
+    text-align: left;
 }
