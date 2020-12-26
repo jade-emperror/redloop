@@ -2,10 +2,10 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Lato', sans-serif;
+
 }
 body{
     color: white;
-    background-color: rgb(25, 25, 25);
 }
 .nav-bar{
     background-color: rgba(0, 0, 0, 0.65);
@@ -15,6 +15,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 .logo-txt-cont{
     margin-left: 4vw;
@@ -57,27 +58,152 @@ a{
     filter: invert();
 }
 .about{
-    background: url(/rcs/home.jpg);
+    width: 100%;
     height: 70vh;
+    background: url(/rcs/home.jpg);
     background-size: cover;
-    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 30vh;
 }
-.about-txt-cont{
-    position: absolute;
-    top: 25vh;
-    left: 90vh;
-    width: 90vh;
+.about-hold{
+    width: 43%;
+    margin-right: 5%;
 }
 .abt-hdr{
     font-size: 2.3rem;
-    margin-bottom: 1.5rem;
+    line-height: 2.2rem;
+    width: fit-content;
+    padding:0% 2% .3% 2%;
+    color:#e8e8e8;
     text-transform: capitalize;
+    border-bottom: solid .3rem rgb(224, 166, 39);
 }
 .abt-desc{
+    margin-top: 1.3rem;
     font-size: 1.3rem;
-    text-indent: 5rem;
-    line-height: 1.5rem;
     color: #d8d8d8;
+    line-height: 1.5rem;
+    text-indent: 5rem;
     word-spacing: .2rem;
-    text-align: left;
+    text-align:left;
+}
+.services{
+    width: 100%;
+    background-color: white;
+    padding-bottom: 30%;
+}
+ul{
+    padding-top: 1rem;
+    color: #313131;
+}
+.no-list{
+    text-transform: capitalize;
+    padding-top: .8rem;
+    font-size: 1.3rem;
+}
+.service-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.serv-cust-txt{
+    width: 85%;
+    margin: auto;
+}
+.serv-cust-hdr{
+    width: fit-content;
+    padding-right: 2.5rem;
+    border-bottom: solid .35rem gold;
+    font-size: 3rem;
+    color: rgb(17, 17, 17);
+    margin-bottom: 2.5rem;
+}
+.serv-blah{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quote{
+    padding: 2%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5rem;
+    color: #313131;
+}
+.sub-txt{
+    color: #525252;
+    font-size: 1.5rem;
+    word-spacing: .2rem;
+    letter-spacing: .05rem;
+    line-height: 2.3rem;
+    text-indent: 4rem;
+    text-transform: capitalize;}
+.txt-italic{
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.76rem;
+    color: #313131;
+}
+.serv-thing{
+    color: #525252;
+    font-size: 1.5rem;
+    word-spacing: .2rem;
+    letter-spacing: .05rem;
+    line-height: 2.3rem;
+    text-indent: 4rem;
+    text-transform: capitalize;
+}
+.serv-hdr{
+    padding-top: 14vh;
+    color: black;
+    font-size: 3rem;
+    padding-bottom: 11vh;
+}
+.service-list{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.service-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.service-ico{
+    width: 14vh;
+    padding-bottom: 2vh;
+}
+.service-desc{
+    font-size: 1.2rem;
+    color: #313131;
+    font-weight: 500;
+}
+.how{
+    width: fit-content;
+    padding-right: 1.5rem;
+    border-bottom: solid .35rem dodgerblue;
+    font-size: 2rem;
+    color: rgb(17, 17, 17);
+    margin-bottom: 2.5rem;
+}
+.agile-cont{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.agile-link{
+    color: dodgerblue;
+}
+.agile-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: .1s;
+}
+.agile-img{
+    width: fit-content;
+}
+.bot-space{
+    padding-bottom: 2%;
 }
