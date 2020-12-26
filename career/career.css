@@ -1,0 +1,157 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Lato", sans-serif;
+}
+
+.join-wrap {
+    width: 90%;
+    margin: 7vh auto 2vh auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.join-desc {
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    text-indent: 8rem;
+    line-height: 2.3rem;
+    letter-spacing: .05rem;
+    word-spacing: .3rem;
+}
+
+.join-hdr {
+    font-size: 3.3rem;
+    margin-bottom: 3vh;
+}
+
+.wrapper {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.career-wrap {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.career-hdr {
+    margin-top: 4vh;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    margin-bottom: 8vh;
+}
+
+.career-option-wrap {
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.career-option {
+    margin-top: 7vh;
+    width: 40vh;
+    height: 40vh;
+    border-radius: 1rem;
+}
+
+.job-head {
+    margin-top: -.2rem;
+    height: 4vh;
+    background-color: rgb(15, 15, 15);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.win-opts {
+    padding-left: .3vw;
+    display: flex;
+    height: 4vh;
+    width: 4vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 2vh;
+    height: 2vh;
+    border: none;
+}
+
+.red {
+    background-color: rgb(255, 29, 29);
+}
+
+.yellow {
+    background-color: rgb(255, 255, 51);
+}
+
+.green {
+    background-color: rgb(48, 221, 48);
+}
+
+.job-desc-cont {
+    background-color: rgb(6, 9, 34);
+    height: 37vh;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    color: whitesmoke;
+}
+
+.job-desc {
+    margin-left: 1vw;
+    padding-top: 1vw;
+}
+
+.prompt {
+    color: rgb(255, 255, 87);
+}
+
+.keyword {
+    color: rgb(230, 38, 118);
+}
+
+.apply {
+    font-size: 1.3rem;
+    margin-top: 2vh;
+    height: 5vh;
+    width: 27vh;
+    margin-left: 7vh;
+    background: dodgerblue;
+    border: solid 3px dodgerblue;
+    color: white;
+    border-radius: 2rem;
+}
+
+.apply:hover {
+    background: transparent;
+    border: solid 3px dodgerblue;
+    color: dodgerblue;
+    transition: .15s;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .join-hdr {
+        margin-top: -2vh;
+    }
+    .join-desc {
+        color: rgb(59, 59, 59);
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+        text-indent: 3rem;
+        text-align: justify;
+    }
+    .win-opts {
+        width: 8vh;
+        padding-left: 1vh;
+    }
+}
