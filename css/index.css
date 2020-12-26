@@ -92,7 +92,7 @@ a{
 .services{
     width: 100%;
     background-color: white;
-    padding-bottom: 30%;
+    padding-bottom: 10%;
 }
 ul{
     padding-top: 1rem;
@@ -178,7 +178,7 @@ ul{
 .service-desc{
     font-size: 1.2rem;
     color: #313131;
-    font-weight: 500;
+    font-weight: bold;
 }
 .how{
     width: fit-content;
@@ -206,4 +206,50 @@ ul{
 }
 .bot-space{
     padding-bottom: 2%;
+}
+.product{
+    padding-bottom: 20%;
+}
+.prod-cont{
+    width: 90%;
+    margin: auto;
+}
+.proj-img{
+    width: 70vh;
+    box-shadow: .7rem 1rem 1.5rem rgba(0,0,0,0.2)
+}
+.proj-desc{
+    color: #313131;
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects{
+    padding-top: 5vh;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.proj-hdr{
+    letter-spacing: .06rem;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    font-weight: bold;
+}
+.proj-txt{
+    padding-top: .2rem;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    word-spacing: .15rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.proj-img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: .15s;
 }
