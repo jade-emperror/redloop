@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{%static 'css/career.css' %}" />
+    <title>jadex</title>
+  </head>
+  <body>
+    <div class="career">
+      <h1 class="career_header">career</h1>
+      <div class="career_para">
+        <p class="service-desc">
+          we are one of the blah vlah to increment the seo,so it is kinda gonna
+          be long, Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          Autem corporis dignissimos quasi velit corrupti molestiae vitae quis
+          nulla, inventore, accusantium sed cupiditate perspiciatis ratione
+          unde. Autem iure quasi dolores ipsum.we beleive that
+        </p>
+      </div>
+    </div>
+    <div class="career_table">
+      <table>
+        <tr>
+          <th>id</th>
+          <th>role</th>
+          <th>No.of positions</th>
+          <th>skill required</th>
+          <th>duration</th>
+        </tr>
+        {% for i in careers%}
+        <tr>
+          <td>{{i.id}}</td>
+          <td>{{i.role}}</td>
+          <td>{{i.noofposition}}</td>
+          <td>{{i.skill}}</td>
+          <td>{{i.duration}}</td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+  </body>
+</html>
