@@ -1,6 +1,0 @@
-primary -- #0077ff
-bg-color --#f0f7ff
-txt-color --> #001833
-suceess --> #00F2BB
-warning --> #FE9F2F
--VE --> #0077FF
