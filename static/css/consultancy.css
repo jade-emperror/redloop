@@ -1,0 +1,182 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+.nav-bar {
+  margin-top: 1vh;
+  position: absolute;
+  z-index: 1;
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.topn {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.dis {
+  list-style: none;
+  float: right;
+}
+.dis a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  display: block;
+  text-transform: uppercase;
+  color: rgb(31, 92, 204);
+}
+.header {
+  margin-left: 3vh;
+  color: rgb(224, 47, 47);
+  font-size: 1.5rem;
+  border-bottom: 2px solid;
+  width: 18rem;
+}
+.content1 {
+  display: block;
+  width: 80%;
+  padding-top: 3vh;
+  margin-left: 4vw;
+  text-align: left;
+  text-justify: auto;
+  font-size: 1.6rem;
+  height: 25vh;
+}
+.content2 {
+  overflow-y: hidden;
+  display: block;
+  width: 40%;
+  padding-top: 3vh;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+  text-justify: auto;
+  font-size: 1.5rem;
+  height: 30vh;
+}
+.content3 {
+  display: block;
+  width: 90%;
+  margin-left: 4vw;
+  padding-top: 3vh;
+  display: block;
+  text-align: justify;
+  text-justify: auto;
+  font-size: 1.6rem;
+  height: 20vh;
+}
+.projects,
+.service {
+  margin-top: 10vh;
+}
+.projects-cont,
+.service-cont {
+  width: 92%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.proj-cont {
+  width: 95%;
+  margin: auto;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5%;
+}
+.proj-cont-rr {
+  width: 95%;
+  margin: auto;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: row-reverse;
+  padding-bottom: 5%;
+}
+.proj-txt {
+  width: 50%;
+}
+.proj-txt-rr {
+  width: 50%;
+  margin-left: 10rem;
+}
+.proj-title {
+  color: black;
+  font-size: 1.7rem;
+}
+.desc-txt {
+  margin-left: 20px;
+}
+.desc-p {
+  float: right;
+  margin-top: 10px;
+  letter-spacing: 0.15rem;
+  font-size: 1.15rem;
+  text-indent: 50px;
+}
+.desc-techstack {
+  float: right;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.tech-header {
+  margin-right: 10px;
+}
+.tech-used {
+  letter-spacing: 0.12rem;
+}
+.desc-img {
+  width: 40%;
+}
+.proj-img {
+  width: 27rem;
+  margin-left: 180px;
+  margin-top: -10px;
+}
+.proj-img-rr {
+  width: 27rem;
+  margin-left: 40px;
+  margin-top: -30px;
+}
+.desc-btns {
+  margin-top: 30px;
+  display: flex;
+  float: right;
+  justify-content: center;
+}
+.desc-btns button {
+  margin-left: 20px;
+  padding: 0.8rem 3rem;
+  font-size: 1.3rem;
+}
+.desc-btns button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+.contact {
+  background-color: -moz-linear-gradient(#9319b8, #e000ce);
+}
+.contact-content {
+  width: 30%;
+  display: inline-flex;
+  margin-left: 3vw;
+}
+.log {
+  width: 10vw;
+  height: 10vh;
+  border-radius: 50%;
+}
+.cont-desc {
+  width: 28%;
+}
